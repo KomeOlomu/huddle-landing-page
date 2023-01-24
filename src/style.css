@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+body {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-size: 15px;
+  min-height: 100vh;
+  color: white;
+  background-color: var(--Violet);
+  background-image: url("../images/bg-desktop.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 3%;
+}
+.card-component {
+  display: flex;
+  align-items: center;
+}
+
+.design {
+  max-width: 700px;
+}
+
+.text {
+  max-width: 600px;
+  font-size: 17px;
+  padding: 40px 32px;
+}
+
+h1 {
+  margin-bottom: 2%;
+}
+p {
+  font-weight: 200;
+}
+button {
+  border-radius: 30px;
+  padding: 10px 50px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: var(--Violet);
+  background-color: white;
+  margin-top: 4%;
+}
+
+button:hover {
+  color: white;
+  background-color: var(--SoftMagenta);
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.fa-brands {
+  border: 1px white solid;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.fa-facebook,
+.fa-twitter {
+  margin-right: 1rem;
+}
+
+.fa-twitter:hover {
+  color: var(--SoftMagenta);
+  cursor: pointer;
+  border: 1px var(--SoftMagenta) solid;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #ffafcc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a2d2ff;
+}
